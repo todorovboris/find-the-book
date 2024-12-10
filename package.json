@@ -5,9 +5,19 @@
     "type": "module",
     "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "lite-server --baseDir=src"
     },
     "keywords": [],
     "author": "",
-    "license": "ISC"
+    "license": "ISC",
+    "devDependencies": {
+        "chai": "^5.1.2",
+        "lite-server": "^2.6.1",
+        "mocha": "^11.0.1"
+    },
+    "dependencies": {
+        "lit-html": "^3.2.1",
+        "page": "^1.11.6"
+    }
 }
