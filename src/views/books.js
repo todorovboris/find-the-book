@@ -18,7 +18,6 @@ const template = (books) => html`<!-- Dashboard page -->
 
 export default async function booksView(ctx) {
     const books = await getAllBooks();
-    console.log(books);
 
     render(template(books), document.querySelector('#wrapper main'));
 }
