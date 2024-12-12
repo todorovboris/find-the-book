@@ -1,0 +1,40 @@
+{
+    "Books": {
+        "a1b2c3": {
+            "ID": "a1b2c3",
+            "Title": "Get Out of Your Head: Stopping the Spiral of Toxic Thoughts",
+            "Author": "Jennie Allen",
+            "Genre": "Non-Fiction"
+        },
+        "d4e5f6": {
+            "ID": "d4e5f6",
+            "Title": "Trust: America’s Best Chance",
+            "Author": "Pete Buttigieg",
+            "Genre": "Non-Fiction"
+        },
+        "g7h8i9": {
+            "ID": "g7h8i9",
+            "Title": "When Breath Becomes Air",
+            "Author": "Paul Kalanithi",
+            "Genre": "Non-Fiction"
+        },
+        "j1k2l3": {
+            "ID": "j1k2l3",
+            "Title": "It Ends With Us",
+            "Author": "Colleen Hoover",
+            "Genre": "Romance"
+        },
+        "m4n5o6": {
+            "ID": "m4n5o6",
+            "Title": "The Proposal",
+            "Author": "Jasmine Guillory",
+            "Genre": "Romance"
+        },
+        "p7q8r9": {
+            "ID": "p7q8r9",
+            "Title": "Gone Girl",
+            "Author": "Gillian Flynn",
+            "Genre": "Thrillers"
+        }
+    }
+}
