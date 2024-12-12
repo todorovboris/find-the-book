@@ -3,6 +3,9 @@ body {
     background-image: url('https://compote.slate.com/images/a92fef3e-c1db-4cbf-93da-dae90c0b9388.jpeg?crop=4395%2C2930%2Cx0%2Cy0');
     background-size: cover;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 body::before {
@@ -14,4 +17,70 @@ body::before {
     height: 100%;
     background-color: rgba(255, 255, 255, 0.8); /* Променете прозрачността (0.5) за повече/по-малко бледност */
     z-index: -1; /* Уверете се, че е зад съдържанието */
+}
+
+.home-button {
+    width: 20%; /* 20% от ширината на родителския елемент */
+    height: auto;
+}
+
+#home-header {
+    color: black;
+    padding: 20px 10%;
+    text-align: center;
+}
+
+#home-header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+#home-header p {
+    margin: 5px 0 0;
+    font-size: 1.2rem;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 1rem;
+    color: white;
+    background-color: #4caf50;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #45a049;
+}
+
+#home-main {
+    text-align: center;
+    padding: 50px 10%;
+    flex: 1;
+}
+
+#home-main h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#home-main p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    margin-top: auto;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
 }

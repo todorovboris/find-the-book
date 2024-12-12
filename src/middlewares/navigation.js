@@ -1,15 +1,10 @@
 import { render, html } from '../../node_modules/lit-html/lit-html.js';
 
-const template = () => html`<header class="bg-gray-700">
-    <nav class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
+const template = () => html` <nav class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
         <div class="flex lg:flex-1">
             <a href="/" class="-m-1.5 p-1.5">
                 <span class="sr-only">Your Company</span>
-                <img
-                    class="h-40 w-auto"
-                    src="https://e7.pngegg.com/pngimages/619/451/png-clipart-button-computer-icons-background-process-computer-program-home-page-poster-angle-text-thumbnail.png"
-                    alt=""
-                />
+                <img class="home-button" src="./images/homebook.png" alt="" />
             </a>
         </div>
         <div class="flex lg:hidden">
@@ -21,9 +16,9 @@ const template = () => html`<header class="bg-gray-700">
             </button>
         </div>
         <div class="hidden lg:flex lg:gap-x-20">
-            <a href="#" class="text-bg/6 font-semibold text-white">Search</a>
-            <a href="#" class="text-bg/6 font-semibold text-white">Books</a>
-            <a href="#" class="text-bg/6 font-semibold text-white">Authors</a>
+            <a href="/search" class="text-bg/6 font-semibold text-white">Search</a>
+            <a href="/books" class="text-bg/6 font-semibold text-white">Books</a>
+            <a href="/authors" class="text-bg/6 font-semibold text-white">Authors</a>
         </div>
         <div class="hidden lg:flex lg:flex-1 lg:justify-end">
             <a href="#" class="text-bg/6 font-semibold text-white">Log in <span aria-hidden="true">&rarr;</span></a>
@@ -91,11 +86,10 @@ const template = () => html`<header class="bg-gray-700">
                 </div>
             </div>
         </div>
-    </div>
-</header>`;
+    </div>`;
 
 export default function navigationMiddleware(ctx, next) {
-    render(template(), document.querySelector('#wrapper'));
+    render(template(), document.querySelector('#wrapper header'));
 
     next();
 }
