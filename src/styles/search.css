@@ -1,0 +1,20 @@
+#search-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+#search-field {
+    width: 500px;
+    padding: 10px;
+    border: 2px solid #374151;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+#search-question {
+    margin: 5px 0 0;
+    font-size: 3rem;
+}
