@@ -1,0 +1,58 @@
+#dashboard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.book {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 200px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.book:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.book img {
+    width: 100%;
+    height: auto;
+}
+
+.name {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.book-info {
+    margin: 10px 0;
+}
+
+.author {
+    font-size: 1rem;
+    color: #555;
+}
+
+.details-btn {
+    display: inline-block;
+    margin: 10px 0;
+    padding: 10px 20px;
+    font-size: 0.9rem;
+    color: white;
+    background-color: #374151;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.details-btn:hover {
+    background-color: #45a049;
+}
