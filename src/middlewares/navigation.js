@@ -5,7 +5,11 @@ const template = () => html`<header class="bg-gray-700">
         <div class="flex lg:flex-1">
             <a href="/" class="-m-1.5 p-1.5">
                 <span class="sr-only">Your Company</span>
-                <img class="h-40 w-auto" src="https://img.freepik.com/premium-vector/book-home-logo_10280-2.jpg" alt="" />
+                <img
+                    class="h-40 w-auto"
+                    src="https://e7.pngegg.com/pngimages/619/451/png-clipart-button-computer-icons-background-process-computer-program-home-page-poster-angle-text-thumbnail.png"
+                    alt=""
+                />
             </a>
         </div>
         <div class="flex lg:hidden">
@@ -91,7 +95,7 @@ const template = () => html`<header class="bg-gray-700">
 </header>`;
 
 export default function navigationMiddleware(ctx, next) {
-    render(template(), document.querySelector('body'));
+    render(template(), document.querySelector('#wrapper'));
 
     next();
 }
