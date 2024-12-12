@@ -4,7 +4,7 @@ const template = () => html` <nav class="mx-auto flex max-w-7xl items-center jus
         <div class="flex lg:flex-1">
             <a href="/" class="-m-1.5 p-1.5">
                 <span class="sr-only">Your Company</span>
-                <img class="home-button" src="./images/homebook.png" alt="" />
+                <img class="home-button" src="./src/images/homebook.png" alt="" />
             </a>
         </div>
         <div class="flex lg:hidden">
