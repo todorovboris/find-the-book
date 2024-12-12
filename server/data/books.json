@@ -50,15 +50,27 @@
         },
         "09": {
             "_id": "09",
-            "name": "",
-            "author": "",
-            "img": ""
+            "name": "Остаряването",
+            "author": "Владимир Симов",
+            "img": "https://www.ciela.com/media/catalog/product/cache/32bb0748c82325b02c55df3c2a9a9856/_/-/_-__161_2.jpg"
         },
         "10": {
             "_id": "10",
-            "name": "",
-            "author": "",
-            "img": ""
+            "name": "Атомни навици",
+            "author": "Джеймс Клиър",
+            "img": "https://www.ciela.com/media/catalog/product/cache/32bb0748c82325b02c55df3c2a9a9856/a/t/atomni-navici-hermes-9789542619451_1.jpg"
+        },
+        "11": {
+            "_id": "11",
+            "name": "История на цивилизацията - Развитие на философската мисъл",
+            "author": "Галина Иванова",
+            "img": "https://www.ciela.com/media/catalog/product/cache/32bb0748c82325b02c55df3c2a9a9856/_/-/_-__418.jpg"
+        },
+        "12": {
+            "_id": "12",
+            "name": "Изкуството да обичаш",
+            "author": "Ерих Фром",
+            "img": "https://www.ciela.com/media/catalog/product/cache/32bb0748c82325b02c55df3c2a9a9856/f/i/file_675.jpg"
         }
     },
     "details": {
