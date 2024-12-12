@@ -1,4 +1,4 @@
-#search-section {
+#search-section form {
     display: flex;
     flex-direction: column;
     justify-content: center;
