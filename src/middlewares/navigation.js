@@ -90,7 +90,7 @@ const template = () => html`<header class="bg-gray-700">
     </div>
 </header>`;
 
-export function navigationMiddleware(ctx, next) {
+export default function navigationMiddleware(ctx, next) {
     render(template(), document.querySelector('body'));
 
     next();
