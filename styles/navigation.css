@@ -2,6 +2,8 @@ body {
     margin: 0;
     background-image: url('https://compote.slate.com/images/a92fef3e-c1db-4cbf-93da-dae90c0b9388.jpeg?crop=4395%2C2930%2Cx0%2Cy0');
     background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     position: relative;
     display: flex;
     flex-direction: column;
