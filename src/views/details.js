@@ -7,8 +7,8 @@ const template = (book) => html`<section id="book-details">
             <img id="details-img" src="${book.img}" alt="${book.name}" class="book-cover" />
         </div>
         <div id="book-info">
-            <p class="details-row">Ред: ${book.row}</p>
             <p class="details-section">Секция: ${book.section}</p>
+            <p class="details-row">Ред: ${book.row}</p>
             <p class="details-origin">Националност: ${book.origin}</p>
             <p class="details-author">Автор: ${book.author}</p>
             <p class="details-genre">Жанр: ${book.genre}</p>
