@@ -5,3 +5,9 @@ export async function getAllBooks() {
     const books = await response.json();
     return books;
 }
+
+export async function getOneBook(bookId) {
+    const response = await fetch(`${booksUrl}/${bookId}`);
+    const book = await response.json();
+    return book;
+}
