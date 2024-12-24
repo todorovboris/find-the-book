@@ -18,6 +18,7 @@
     padding: 20px;
     gap: 20px;
     text-align: left;
+    position: relative; /* Позволява позициониране на вложени елементи */
 }
 
 #book-container > div {
@@ -70,6 +71,9 @@
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s;
+    position: absolute; /* Позиционира бутона в рамките на контейнера */
+    bottom: 20px; /* Разстояние от долната част на контейнера */
+    right: 20px;
 }
 
 .back-btn:hover {
