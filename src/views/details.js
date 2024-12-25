@@ -24,7 +24,5 @@ export default async function detailsView(ctx) {
     const bookId = ctx.params.bookId;
     const book = await getOneBook(bookId);
 
-    console.log(book);
-
     render(template(book), document.querySelector('#wrapper main'));
 }

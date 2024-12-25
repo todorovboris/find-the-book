@@ -1,5 +1,6 @@
 import { html, render } from '../../node_modules/lit-html/lit-html.js';
 import { getAllBooks } from '../api/books.js';
+import page from '../../node_modules/page/page.mjs';
 
 const template = (onSearch, results, hasSearched) => html`<section id="search-section">
     <form @submit=${onSearch}>
@@ -13,7 +14,7 @@ const template = (onSearch, results, hasSearched) => html`<section id="search-se
         ? html`<section id="results-section">
               ${results && results.length > 0
                   ? html` <ul id="results-list">
-                        ${results.map((result) => html`<li>${result.name} от ${result.author}</li>`)}
+                        ${results.map((result) => html` <li @click=${() => onBookClick(result._id)}>${result.name} от ${result.author}</li> `)}
                     </ul>`
                   : html`<p>Няма намерени резултати.</p>`}
           </section>`
@@ -41,6 +42,10 @@ async function searchSubmitHandler(e) {
 
     hasSearched = true;
 
-    render(template(searchSubmitHandler, currentResults, hasSearched), document.querySelector('#wrapper main'));
+    render(template(searchSubmitHandler, currentResults, hasSearched, onBookClick), document.querySelector('#wrapper main'));
     // document.querySelector('#search-field').value = '';
+}
+
+function onBookClick(bookId) {
+    page.redirect(`/books/${bookId}/details`);
 }
