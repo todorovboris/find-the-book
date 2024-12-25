@@ -3,7 +3,7 @@ nav {
     align-items: center; /* Вертикално центриране */
     justify-content: space-between; /* Разпределя "Home" и менюто */
     padding: 0 32px;
-    height: 60px; /* Фиксирана височина за по-добра подредба */
+    height: 65px; /* Фиксирана височина за по-добра подредба */
 }
 
 nav div:first-child {
