@@ -1,9 +1,21 @@
+/* Основен стил за секцията за търсене */
+#search-section {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Премахваме центрирането по вертикала */
+    height: auto; /* Премахваме фиксираната височина */
+}
+
 #search-section form {
     display: flex;
     flex-direction: column; /* Подреждаме елементите вертикално */
     justify-content: center;
     align-items: center;
-    height: 50vh;
+    height: auto; /* Премахваме фиксираната височина */
 }
 
 #search-question {
@@ -19,9 +31,11 @@
     font-size: 1rem;
 }
 
-#search-section .search-container {
+.search-container {
     display: flex;
     align-items: center;
+    margin-bottom: 10px; /* Добавяме разстояние под лентата за търсене */
+    width: 500px; /* Определяме ширината на контейнера */
 }
 
 #search-button {
@@ -33,4 +47,45 @@
     border-radius: 5px;
     cursor: pointer;
     margin-left: 10px; /* разстояние между полето за търсене и бутона */
+}
+
+/* Секция за резултати */
+#results-section {
+    margin-top: 0; /* Нулево разстояние след контейнера */
+    padding: 0;
+    background-color: #fff;
+    border: 2px solid #374151; /* Същият цвят като на полето за търсене */
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 500px; /* Същата ширина като на контейнера */
+}
+
+#results-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#results-list li {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    font-size: 1rem;
+}
+
+#results-list li:last-child {
+    border-bottom: none;
+}
+
+#results-list li:hover {
+    background-color: #f5f5f5;
+    cursor: pointer;
+}
+
+/* Стил за съобщение "Няма намерени резултати" */
+#results-section p {
+    margin: 0;
+    padding: 10px;
+    color: #666;
+    text-align: center;
+    font-style: italic;
 }
