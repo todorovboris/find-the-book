@@ -1,9 +1,14 @@
 #search-section form {
     display: flex;
-    flex-direction: column;
+    flex-direction: column; /* Подреждаме елементите вертикално */
     justify-content: center;
     align-items: center;
     height: 50vh;
+}
+
+#search-question {
+    font-size: 3rem;
+    margin-bottom: 20px; /* Разстояние между въпроса и полето за търсене */
 }
 
 #search-field {
@@ -14,7 +19,18 @@
     font-size: 1rem;
 }
 
-#search-question {
-    margin: 5px 0 0;
-    font-size: 3rem;
+#search-section .search-container {
+    display: flex;
+    align-items: center;
+}
+
+#search-button {
+    width: 60px; /* квадратна форма */
+    height: 50px; /* квадратна форма */
+    background-color: #374151;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px; /* разстояние между полето за търсене и бутона */
 }
