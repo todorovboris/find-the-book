@@ -5,7 +5,7 @@ const template = () => html`<section id="search-section">
         <p id="search-question">Търсите ли нещо?</p>
         <div class="search-container">
             <input type="text" name="search" id="search-field" placeholder="Потърси книга или автор..." />
-            <input type="submit" id="search-button" />
+            <input type="submit" id="search-button" value="Търси" />
         </div>
     </form>
 </section> `;
