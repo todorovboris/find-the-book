@@ -1,25 +1,16 @@
 import { render, html } from '../../node_modules/lit-html/lit-html.js';
 
-const template = () => html`<nav class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
-    <div class="flex lg:flex-1">
-        <a href="/" class="-m-1.5 p-1.5">
+const template = () => html`<nav>
+    <div>
+        <a href="/">
             <img class="home-button" src="./images/homebook.png" alt="" />
         </a>
     </div>
-    <div class="flex lg:hidden">
-        <button type="button" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700">
-            <span class="sr-only">Open main menu</span>
-            <svg class="size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-            </svg>
-        </button>
+    <div class="menu">
+        <a href="/search" class="menu-link">Търси</a>
+        <a href="/books" class="menu-link">Книги</a>
+        <a href="/authors" class="menu-link">Автори</a>
     </div>
-    <div class="hidden lg:flex lg:gap-x-20">
-        <a href="/search" class="text-bg/6 font-semibold text-white">Търси</a>
-        <a href="/books" class="text-bg/6 font-semibold text-white">Книги</a>
-        <a href="/authors" class="text-bg/6 font-semibold text-white">Автори</a>
-    </div>
-    <div class="hidden lg:flex lg:flex-1 lg:justify-end"></div>
 </nav>`;
 
 // const template = () => html` <nav class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">

@@ -1,4 +1,6 @@
+@import 'body.css';
 @import 'navigation.css';
+@import 'home.css';
 @import 'search.css';
 @import 'books.css';
 @import 'details.css';
