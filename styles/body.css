@@ -34,7 +34,7 @@ body::before {
 }
 
 main {
-    padding-top: 100px; /* Компенсация за фиксирания header */
+    padding-top: 120px; /* Компенсация за фиксирания header */
 }
 
 footer {

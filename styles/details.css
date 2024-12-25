@@ -1,9 +1,9 @@
 #book-details {
-    padding: 40px;
+    padding: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    min-height: 70vh;
 }
 
 #book-container {
@@ -13,7 +13,7 @@
     border: 1px solid #ddd;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    max-width: 800px;
+    max-width: 700px;
     overflow: hidden;
     padding: 20px;
     gap: 20px;
