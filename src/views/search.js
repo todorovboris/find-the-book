@@ -47,5 +47,5 @@ async function searchSubmitHandler(e) {
 }
 
 function onBookClick(bookId) {
-    page.redirect(`/books/${bookId}/details`);
+    page.redirect(`/books/${bookId}`);
 }

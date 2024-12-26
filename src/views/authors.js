@@ -36,7 +36,7 @@ async function fetchAuthorsAndBooks() {
 }
 
 function onBookClick(bookId) {
-    page.redirect(`/books/${bookId}/details`);
+    page.redirect(`/books/${bookId}`);
 }
 
 export default async function authorsView(ctx) {

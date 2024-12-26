@@ -12,7 +12,7 @@ page(navigationMiddleware);
 page('/', homeView);
 page('/search', searchView);
 page('/books', booksView);
-page('/books/:bookId/details', detailsView);
+page('/books/:bookId', detailsView);
 page('/authors', authorsView);
 
 page();

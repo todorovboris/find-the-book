@@ -11,7 +11,7 @@ const template = (books) => html`<!-- Dashboard page -->
                     <div class="book-info">
                         <p class="author">${book.author}</p>
                     </div>
-                    <a class="details-btn" href="/books/${book._id}/details">Информация</a>
+                    <a class="details-btn" href="/books/${book._id}">Информация</a>
                 </div>`
         )}
     </section> `;
