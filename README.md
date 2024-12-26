@@ -8,8 +8,7 @@ BookFinder is a web-based or mobile E2E application designed to simplify the pro
 
 -   Search by title or author.
 -   Real-time shelf location: Displays the exact shelf or section in the bookstore or library.
--   Category filtering: Search within genres or specific sections.
--   Favorites list: Save frequently searched books for quick access.
+-   Browse through all the books or all the authors and their books.
 
 ## Tech Stack
 
