@@ -1,9 +1,9 @@
 {
     "name": "find-the-book",
     "version": "1.0.0",
-    "description": "My first own student project",
+    "description": "My first own project",
     "type": "module",
-    "main": "index.js",
+    "main": "app.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "dev": "lite-server"
