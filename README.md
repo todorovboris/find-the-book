@@ -28,10 +28,4 @@ BookFinder is a web-based or mobile E2E application designed to simplify the pro
 ### Searching machine
 ![Screenshot 2025-01-09 at 14 49 59](https://github.com/user-attachments/assets/b4351acb-3535-4538-b7bd-5659ab1299fe)
 
-### Books catalog
-![Screenshot 2025-01-09 at 14 50 27](https://github.com/user-attachments/assets/0d4ee7a6-8b55-45fd-bf3e-ddcc6110bd4c)
-
-### Authors catalog
-- ordered alphabetically
-![Screenshot 2025-01-09 at 14 50 44](https://github.com/user-attachments/assets/5cc6e013-a6bf-4b07-8666-516385fd70d1)
 
