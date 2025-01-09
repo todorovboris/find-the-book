@@ -23,15 +23,15 @@ BookFinder is a web-based or mobile E2E application designed to simplify the pro
 ![Screenshot 2025-01-09 at 12 02 20](https://github.com/user-attachments/assets/4c00c3fb-1f8f-4d70-971e-f030596fce7d)
 
 ### Details for selected book
-![Screenshot 2025-01-09 at 12 00 51](https://github.com/user-attachments/assets/0bb97a5e-2bf7-4c08-8aac-a64f8029af5a)
+![Screenshot 2025-01-09 at 14 48 47](https://github.com/user-attachments/assets/c931aa28-ddeb-4cb7-86aa-657a10b6f704)
 
 ### Searching machine
-![Screenshot 2025-01-09 at 12 00 29](https://github.com/user-attachments/assets/5e1a48b7-2d29-4422-8e40-4fc25ac08b57)
+![Screenshot 2025-01-09 at 14 49 59](https://github.com/user-attachments/assets/b4351acb-3535-4538-b7bd-5659ab1299fe)
 
 ### Books catalog
-![Screenshot 2025-01-09 at 12 01 23](https://github.com/user-attachments/assets/e3dee6df-57f0-41ee-bd2a-38297a002bb0)
+![Screenshot 2025-01-09 at 14 50 27](https://github.com/user-attachments/assets/0d4ee7a6-8b55-45fd-bf3e-ddcc6110bd4c)
 
 ### Authors catalog
 - ordered alphabetically
-![Screenshot 2025-01-09 at 14 39 39](https://github.com/user-attachments/assets/dc092446-c8ce-4f95-ba8b-faaab78598e3)
+![Screenshot 2025-01-09 at 14 50 44](https://github.com/user-attachments/assets/5cc6e013-a6bf-4b07-8666-516385fd70d1)
 
