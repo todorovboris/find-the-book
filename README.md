@@ -17,3 +17,7 @@ BookFinder is a web-based or mobile E2E application designed to simplify the pro
 -   Page.js for routing
 -   Lit-html for templating
 -   Mocha for unit testing
+
+## Overview
+### Main Page
+![Screenshot 2025-01-09 at 12 02 20](https://github.com/user-attachments/assets/4c00c3fb-1f8f-4d70-971e-f030596fce7d)
