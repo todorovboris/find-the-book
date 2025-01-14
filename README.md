@@ -2,7 +2,7 @@
 
 ## Description
 
-BookFinder is a web-based or mobile E2E application designed to simplify the process of finding books in bookstores or libraries. By searching by title or author's name, the system provides detailed location information, such as shelf and section, making it easier for users to locate their desired books quickly.
+BookFinder is a web-based E2E application designed to simplify the process of finding books in bookstores or libraries. By searching by title or author's name, the system provides detailed location information, such as shelf and section, making it easier for users to locate their desired books quickly.
 
 ## Features
 
